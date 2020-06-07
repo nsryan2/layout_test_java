@@ -1,7 +1,27 @@
-<?php include('_layouts/_includes/navbar.php');?>
-
 <!DOCTYPE html>
 <html>
+
+
+<head>
+    <script src="jquery.js"></script>
+    <script>
+        $(function () {
+            $("#DivContentnav").load("navbar.html");
+        });
+    </script>
+
+    <script src="jquery.js"></script>
+    <script>
+        $(function () {
+            $("#DivContentfooter").load("footer.html");
+        });
+    </script>
+</head>
+
+<body>
+    <div id="DivContentnav"></div>
+</body>
+
 <body>
     <div class="container">
         <div class="row">
@@ -89,5 +109,6 @@
         crossorigin="anonymous"></script>
 </body>
 <hr>
+
 </html>
 <?php include('_layouts/_includes/footer.php');?>

@@ -1,7 +1,27 @@
-<?php include('_layouts/_includes/navbar.php');?>
-
 <!DOCTYPE html>
 <html>
+
+
+<head>
+    <script src="jquery.js"></script>
+    <script>
+        $(function () {
+            $("#DivContentnav").load("navbar.html");
+        });
+    </script>
+
+    <script src="jquery.js"></script>
+    <script>
+        $(function () {
+            $("#DivContentfooter").load("footer.html");
+        });
+    </script>
+</head>
+
+<body>
+    <div id="DivContentnav"></div>
+</body>
+
 <body>
     <div class="container">
         <div class="row">
@@ -15,10 +35,12 @@
                     <p></p>
                     <hr>
                     <p>Photo of Hotel</p>
-                    <p>Description from the hotel, prefferably they provide it to us instead of just lifting it from their website</p>
+                    <p>Description from the hotel, prefferably they provide it to us instead of just lifting it from
+                        their website</p>
                     <p>For the government employees room rate, book online "here link to government employee rate".</p>
                     <p></p>
-                    <p>For all others, Book online "here insert link here" or call "the hotel" reservations line at "phone number for reservations"</p>
+                    <p>For all others, Book online "here insert link here" or call "the hotel" reservations line at
+                        "phone number for reservations"</p>
                     <p></p>
                     <p>Reservation Deadline for Rates: <b>insert deadline</b></p>
                     <p></p>
@@ -32,18 +54,25 @@
                     <p></p>
                     <p>Parking(Self-park): insert price per car per night & day with in/out privileges.</p>
                     <p></p>
-                    <p>Please contact "the Hotel" for additional questions and/or information pertaining to rooms and availibility.</p>
+                    <p>Please contact "the Hotel" for additional questions and/or information pertaining to rooms and
+                        availibility.</p>
                     <p></p>
                     <hr>
-                    <p>With any conference Transportation questions or concerns, please contact our Hotels and Transportation Coordinator Gavin Davis at</p>
-                    <a href="mailto:gavind2@illinois.edu?cc= !!!insert conference email!!!, nsryan2@illinois.edu, &subject= Hotel Queries">Send Email</a>
+                    <p>With any conference Transportation questions or concerns, please contact our Hotels and
+                        Transportation Coordinator Gavin Davis at</p>
+                    <a
+                        href="mailto:gavind2@illinois.edu?cc= !!!insert conference email!!!, nsryan2@illinois.edu, &subject= Hotel Queries">Send
+                        Email</a>
                 </div>
             </div>
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
 </body>
 <hr>
+
 </html>
 <?php include('_layouts/_includes/footer.php');?>
