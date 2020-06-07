@@ -1,9 +1,31 @@
-<?php include('navbar.php'); ?>
 
 <!DOCTYPE html>
 
 <html>
-    <--! insert content here -->
-</html>
+    <head>
+    <script src="jquery.js"></script>
+    <script>
+        $(function () {
+            $("#DivContentnav").load("navbar.html");
+        });
+    </script>
 
-<?php include('footer.php'); ?>
+    <script src="jquery.js"></script>
+    <script>
+        $(function () {
+            $("#DivContentfooter").load("footer.html");
+        });
+    </script>
+</head>
+<body>
+  <div id="DivContentnav"></div>
+</body>
+    
+    
+    <--! insert content here -->
+        
+        
+<body>
+  <div id="DivContentfooter"></div>
+</body>
+</html>
