@@ -1,0 +1,93 @@
+<?php include('_layouts/_includes/navbar.php');?>
+
+<!DOCTYPE html>
+<html>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="content">
+                    <h1>ANS Student Conference 2022 Travel Arrangements</h1>
+                    <p>Travel Arrangements Coming Soon!!</p>
+
+
+
+                    <h3>Local Airports</h3>
+                    <a href="https://www.flychicago.com/ohare/pages/default.aspx">O'Hare International Airport</a>
+                    <p></p>
+                    <a href="https://www.flychicago.com/ohare/pages/default.aspx"><img src="img/Ohare.png" alt="O'hare"
+                            width="50%"></a>
+                    <p></p>
+                    <a href="https://www.flychicago.com/midway/home/pages/default.aspx">Chicago Midway International
+                        Airport</a>
+                    <p></p>
+                    <a href="https://www.flychicago.com/midway/home/pages/default.aspx"><img src="img/Midway.png"
+                            alt="Midway" width="50%"></a>
+                    <p></p>
+                    <a href="https://iflycu.com/">Willard Airport</a>
+                    <p></p>
+                    <a href="https://iflycu.com/"><img src="img/Willard.png" alt="Willard" width="50%"></a>
+
+                    <h3>Local Bus Companies</h3>
+                    <a href="https://peoriacharter.com/">Peoria Charter</a>
+                    <p></p>
+                    <a href="https://peoriacharter.com/"><img src="img/PeoriaCharter.jpeg" alt="PeoriaCharter"
+                            width="50%"></a>
+                    <hr>
+                    <h3>Travel Assistance</h3>
+                    <p>The travel assistance program seeks to limit the cost of students attending the ANS Student
+                        Conference, and provide support to those who might be dettered by the cost associated with
+                        travel. There is no guarantee that the Student Conference will be able to provide complete
+                        travel reimbursement.</p>
+                    <a href="travel_assistance.pdf" download>Travel Assistance Form</a>
+                    <hr>
+                    <h3>Travel Assistance Instructions</h3>
+                    <ol>
+                        <li>Download the assistance form and fill it out with all the members of your chapter that
+                            attended the conference</li>
+                        <li>Compile all eligible reciepts</li>
+                        <li>Scan all the documents into a SINGLE .pdf document</li>
+                        <li>Structure the document so that no more than one person’s receipts are on a single page
+                            (Multiple pages for a single person are acceptable)</li>
+                        <li>Email one Complete application to <a
+                                href="mailto:gavind2@illinois.edu?">gavind2@illinois.edu</a> by April 29th, 2022</li>
+                    </ol>
+                    <hr>
+                    <h3>Travel Assistance Stipulations</h3>
+                    <ul>
+                        <li>Not sure which to include here, the others were pretty cut and dry</li>
+                    </ul>
+                    <hr>
+                    <h3>Examples of What May be Covered:</h3>
+                    <ul>
+                        <li>Airline tickets</li>
+                        <li>Bus fees, including driver fees or individual fares</li>
+                        <li>Gasoline, providing proper receipts</li>
+                    </ul>
+                    <hr>
+                    <h3>Examples of What Will Not be Covered:</h3>
+                    <ul>
+                        <li>Food</li>
+                        <li>Lodging</li>
+                        <li>Non-student travel expenses</li>
+                        <li>Rebooking or cancellation fees</li>
+                        <li>Registration fees</li>
+                    </ul>
+                    <hr>
+                    <p>With any questions or concerns, please contact our Hotels and Transportation Coordinator Gavin
+                        Davis at</p>
+                    <a
+                        href="mailto:gavind2@illinois.edu?cc= !!!insert conference email!!!, nsryan2@illinois.edu, &subject= Travel Queries">Send
+                        Email</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
+<hr>
+</html>
+<?php include('_layouts/_includes/footer.php');?>
