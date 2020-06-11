@@ -33,20 +33,45 @@
 
 
                     <h3>Local Airports</h3>
-                    <a href="https://www.flychicago.com/ohare/pages/default.aspx">O'Hare International Airport</a>
-                    <p></p>
-                    <a href="https://www.flychicago.com/ohare/pages/default.aspx"><img src="img/Ohare.png" alt="O'hare"
-                            width="50%"></a>
-                    <p></p>
-                    <a href="https://www.flychicago.com/midway/home/pages/default.aspx">Chicago Midway International
-                        Airport</a>
-                    <p></p>
-                    <a href="https://www.flychicago.com/midway/home/pages/default.aspx"><img src="img/Midway.png"
-                            alt="Midway" width="50%"></a>
-                    <p></p>
-                    <a href="https://iflycu.com/">Willard Airport</a>
-                    <p></p>
-                    <a href="https://iflycu.com/"><img src="img/Willard.png" alt="Willard" width="50%"></a>
+                    <style>
+                    * {
+                      box-sizing: border-box;
+                    }
+
+                    .column {
+                      float: left;
+                      width: 33.33%;
+                      padding: 5px;
+                    }
+
+                    /* Clearfix (clear floats) */
+                    .row::after {
+                      content: "";
+                      clear: both;
+                      display: table;
+                    }
+
+                    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+                    @media screen and (max-width: 500px) {
+                      .column {
+                        width: 100%;
+                      }
+                    }
+                    </style>
+                    
+                    <div class="row">
+                        <div class="column">
+                            <a href="https://www.flychicago.com/ohare/pages/default.aspx"><img src="img/Ohare.png" alt="O'hare"
+                            width="100%"></a>
+                        </div>
+                        <div class="column">
+                            <a href="https://www.flychicago.com/midway/home/pages/default.aspx"><img src="img/Midway.png"
+                            alt="Midway" width="100%"></a>
+                        </div>
+                        <div class="column">
+                            <a href="https://iflycu.com/"><img src="img/Willard.png" alt="Willard" width="100%"></a>
+                        </div>
+                      </div>
 
                     <h3>Local Bus Companies</h3>
                     <a href="https://peoriacharter.com/">Peoria Charter</a>
